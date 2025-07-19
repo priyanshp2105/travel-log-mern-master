@@ -1,2 +1,17 @@
-# Auto detect text files and perform LF normalization
+# Auto-detect text files and normalize line endings to LF
 * text=auto
+
+# Explicitly mark language files as text
+*.js     text
+*.jsx    text
+*.json   text
+*.css    text
+*.html   text
+*.md     text
+
+# Mark images and other binaries so Git won’t try to normalize them
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
